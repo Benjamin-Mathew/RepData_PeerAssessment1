@@ -160,4 +160,8 @@ for (type in c("weekend", "weekday")) {
 
 ```
 
-
+```{r, include=FALSE}
+   # add this chunk to end of mycode.rmd
+   file.rename(from="PA1_template.Rmd", 
+               to="PA1_template.md")
+```
